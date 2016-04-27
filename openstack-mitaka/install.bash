@@ -23,8 +23,9 @@ ping controller -c 5
 #
 apt-get update
 apt-get install git -y
-git clone https://github.com/vinothkumarselvaraj/openstack-mitaka.git
-cd openstack-mitaka/
+#git clone https://github.com/vinothkumarselvaraj/openstack-mitaka.git
+git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git
+cd openstack-setup/openstack-mitaka/
 
 #
 #Always backup first

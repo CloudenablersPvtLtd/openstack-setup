@@ -1,8 +1,12 @@
+![alt tag](https://github.com/CloudenablersPvtLtd/openstack-setup/blob/mitaka/openstack-mitaka/mitaka_configration/openstack-mitaka-logo.png)
+
 # OpenStack-mitaka (All-in-one node using single NIC) for Ubuntu 14.04LTS
 Bash script to install openstack-Mitaka in ubuntu 14.04LTS
 
 >Download the script using the below command:
->>git clone https://github.com/vinothkumarselvaraj/openstack-mitaka.git
+>>git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git
+
+>>cd openstack-setup/openstack-mitaka/
 
 >Script Usage: install.bash --ip_address [Your server Ip] --interface_name [interface name]
 
