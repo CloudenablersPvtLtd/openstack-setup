@@ -1,4 +1,4 @@
 # openstack-setup
 Openstack deployment scripts repository
 
-![alt tag](http://www.cloudenablers.com/wp-content/themes/openmind/img/cloudenablers_logo.png)
+![alt tag](http://photos1.meetupstatic.com/photos/member/5/e/d/a/highres_178404282.jpeg)
