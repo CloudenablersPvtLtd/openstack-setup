@@ -7,7 +7,7 @@
 #
 #
 
-#usage: bash main_mitaka.bash --ip_address 192.168.1.172 --interface_name eth0
+#usage: bash install.bash --ip_address 192.168.1.172 --interface_name eth0
 
 # Execute getopt
 ARGS=$(getopt -o a:b -l "ip_address:,interface_name:" -- "$@");
