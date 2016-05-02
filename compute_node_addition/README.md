@@ -8,9 +8,9 @@ Bash script to install/add compute node to openstack-Mitaka controller in ubuntu
 
 >>cd openstack-setup/compute_node_addition/
 
->Script Usage: install_compute.bash --controllernode_ip_address [Your controller Ip] --computenode_ip_address [Your computenode Ip] --interface_name [interface name of compute node]
+Script Usage: install_compute.bash --controllernode_ip_address [Your controller Ip] --computenode_ip_address [Your computenode Ip] --interface_name [interface name of compute node]
 
->Example: bash install_compute.bash --controllernode_ip_address 192.168.2.161 --computenode_ip_address 192.168.1.172 --interface_name eth0
+Example: bash install_compute.bash --controllernode_ip_address 192.168.2.161 --computenode_ip_address 192.168.1.172 --interface_name eth0
 
 IMPORTANT:
   - Use this script in the fresh ubuntu 14.04LTS machine.
@@ -18,6 +18,7 @@ IMPORTANT:
   - This script use same NIC/IP for Management/External/VM Datapath networks.
   - Make sure that the IP you have given must have internet connectivity.
   - The interface name must be the NIC name of above mentioned IP.
+  - Reboot the compute node after script installation is completed. 
 
 > Author: Vinoth Kumar Selvaraj
 
