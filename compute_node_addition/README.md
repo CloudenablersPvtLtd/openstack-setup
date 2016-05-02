@@ -18,6 +18,7 @@ IMPORTANT:
   - This script use same NIC/IP for Management/External/VM Datapath networks.
   - Make sure that the IP you have given must have internet connectivity.
   - The interface name must be the NIC name of above mentioned IP.
+  - For your convenient, assign the compute host name as compute1,compute2,compute3 and so on.
   - Reboot the compute node after script installation is completed. 
 
 > Author: Vinoth Kumar Selvaraj
