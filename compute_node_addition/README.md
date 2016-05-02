@@ -1,16 +1,16 @@
 ![alt tag](https://github.com/CloudenablersPvtLtd/openstack-setup/blob/mitaka/openstack-mitaka/mitaka_configration/openstack-mitaka-logo.png)
 
-# OpenStack-mitaka (All-in-one node using single NIC) for Ubuntu 14.04LTS
-Bash script to install openstack-Mitaka in ubuntu 14.04LTS
+# OpenStack-mitaka compute_node addition for Ubuntu 14.04LTS
+Bash script to install/add compute node to openstack-Mitaka controller in ubuntu 14.04LTS
 
 >Download the script using the below command:
 >>git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git
 
->>cd openstack-setup/openstack-mitaka/
+>>cd openstack-setup/compute_node_addition/
 
->Script Usage: install.bash --ip_address [Your server Ip] --interface_name [interface name]
+>Script Usage: install_compute.bash --controllernode_ip_address [Your controller Ip] --computenode_ip_address [Your computenode Ip] --interface_name [interface name of compute node]
 
->Example: install.bash --ip_address 192.168.1.172 --interface_name eth0
+>Example: bash install_compute.bash --controllernode_ip_address 192.168.2.161 --computenode_ip_address 192.168.1.172 --interface_name eth0
 
 IMPORTANT:
   - Use this script in the fresh ubuntu 14.04LTS machine.
@@ -25,4 +25,4 @@ IMPORTANT:
 
 > website: www.cloudenablers.com
 
-> Date: 20-april-2016
+> Date: 02-May-2016
