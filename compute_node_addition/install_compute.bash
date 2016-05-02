@@ -21,8 +21,17 @@ echo $compute_ip  compute >> /etc/hosts
 ping controller -c 3
 ping compute -c 3
 
+
+#
+#Clone the installer source code
+#
+apt-get update
+apt-get install git -y
+#git clone https://github.com/vinothkumarselvaraj/openstack-mitaka.git
+git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git
+
 #Use working directory
-cd ./compute_node_addition/
+cd ./openstack-setup/compute_node_addition/
 
 #
 #Always backup first
