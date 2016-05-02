@@ -28,7 +28,7 @@ ping compute -c 3
 apt-get update
 apt-get install git -y
 #git clone https://github.com/vinothkumarselvaraj/openstack-mitaka.git
-git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git
+git clone https://github.com/CloudenablersPvtLtd/openstack-setup.git -b compute_node_addition
 
 #Use working directory
 cd ./openstack-setup/compute_node_addition/
