@@ -5,7 +5,7 @@ Openstack deployment scripts repository
 
 
 #openstack-mitaka
-        --> Bash script to install OpenStack All-in-one / Controller Node
+        >> Bash script to install OpenStack All-in-one / Controller Node
 
 #compute_node_addition 
-        --> Bash Script to add compute node to the existing openstack setup
+        >> Bash Script to add compute node to the existing openstack setup
